@@ -3,6 +3,11 @@
         font-size: 50px;
         line-height: 1.5;
         text-align: center;
+        border:1px solid green; /* dotted,dashed */
+        /*border-top:1px solid green;*/
+        /*border-bottom:1px solid green;*/
+        /*border-left:1px solid green;*/
+        /*border-right:1px solid green;*/
     }
     p{
         font-size: 14px;
