@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Bootstrap JS</title>
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/nivoslider/themes/default/default.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="libs/nivoslider/nivo-slider.css" type="text/css" media="screen">
+
+</head>
+<body>
+<!--    modal demo-->
+    <section class="col-md-12">
+        <div class="container">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Launch demo modal
+<!--                data-toggle -> kich hoat su kien modal-->
+<!--                data-target -> doi tuong-->
+            </button>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+<!--            modal-dialog : kick co-->
+<!--            modal-sm-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Email..." class="form-control">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Email..." class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="col-md-12">
+        <div class="container">
+            <div class="dropdown">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown trigger
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li>Homw</li>
+                    <li>Catelogy</li>
+                    <li>Product</li>
+                    <li>Brand</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="col-md-12">
+        <div class="container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">Home</div>
+                <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
+                <div role="tabpanel" class="tab-pane" id="messages">Messages</div>
+                <div role="tabpanel" class="tab-pane" id="settings">Settings</div>
+            </div>
+        </div>
+    </section>
+<!--    Demo Carousel-->
+    <section class="col-md-12">
+        <div class="container">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+<!--                 Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="imgs/imgs_project/img_12.png" alt="" />
+                            <div class="carousel-caption">
+                                Tiêu đề 1
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="imgs/imgs_project/img_13.png" height="426" width="638" alt=""/>
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="imgs/imgs_project/img_14.png" height="310" width="512" alt=""/>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="col-md-12">
+        <div class="container theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="imgs/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <img src="imgs/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+                <img src="imgs/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="imgs/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+        </div>
+    </section>
+    <section class="col-md-12">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4>1</h4></div>
+                <div class="item"><h4>2</h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+                <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div>
+            </div>
+        </div>
+    </section>
+<script src="libs/jquery/jquery-3.5.1.min.js"></script>
+<script src="libs/bootstrap3.4.1/js/bootstrap.js"></script>
+<script src="libs/nivoslider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $('#slider').nivoSlider();
+    </script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.section{
+    float: left;
+    width: 100%;
+}
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: darkorange;
+}
+/*col-md-6 col-md-offset-3 mac dinh padding-left va padding-right la 15px*/
+.traitim{
+    font-size: 50px;
+    transition: color 300ms;
+}
+.traitim:hover{
+    color: red;
+}

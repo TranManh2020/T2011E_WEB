@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #fafafa;
+    background-image: url("../imgs/bg.jpg");
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1170px;
+    margin: 0 auto;
+}
+.content{
+    float: left;
+    width: calc(66.67% - 15px);
+    background-color: white;
+    margin-right: 15px;
+    padding: 40px;
+}
+.sidebar{
+    float: left;
+    width: calc(33.33% - 15px);
+    margin-left: 15px;
+}
+.header{
+    border-bottom: 1px solid red;
+    padding-top: 20px;
+    background-image: url("../imgs/img_1.png");
+    background-size: cover;
+}
+.name{
+    float: left;
+    width: 33.33%;
+    font-size: 35px;
+    color: #fafafa;
+    text-align: center;
+}
+.menu{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-weight: 500;
+}
+.menu a{
+    font-size: 20px;
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 400;
+}
+.menu ul{
+    float: left;
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.logo{
+    float: left;
+    width: 33.34%;
+}
+.logo a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+.logo ul{
+    float: right;
+}
+.logo li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+.middle{
+    float: left;
+    width: calc(100% - 30px);
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.middle h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+}
+.middle p{
+    font-size: 20px;
+    color: #fafafa;
+}
+.middle a{
+    text-transform: uppercase;
+    color: #222222;
+    text-decoration: none;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.section image.img{
+    float: left;
+    border-radius: 100%;
+}
+.content h{
+    float: left;
+    font-size: 20px;
+    color: #222222;
+
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
+</head>
+<body>
+<section class="col-md-12">
+    <div class="container">
+        <h2><span id="min">10</span>:<span id="sec">10</span></h2>
+    </div>
+</section>
+<section class="col-md-12">
+    <div class="container">
+        <button type="button" class="btn btn-default" onclick="start()">Start</button>
+        <button type="button" class="btn btn-default" onclick="pause()">Pause</button>
+        <button type="button" class="btn btn-default" onclick="stop()">Stop</button>
+    </div>
+</section>
+<script src="libs/jquery/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+    var min = $("#min");
+    var sec = $("#sec");
+    var m = 10;
+    var s = 0;
+    var timer = setInterval(function(){
+
+    },200)
+    function start() {
+        var txt = min.text;
+        var txt1 = sec.text;
+        min.text(m >= 10 ? m : "0" + m);
+        sec.text(s > 10 ? s : "0" + s);
+        s--;
+        if (s < 0) {
+            m--;
+            s = 59;
+        }
+        if (m < 0) {
+            clearInterval(timer);
+        }
+    }
+    function pause(){
+
+    }
+    function stop(){
+        min.text(0);
+        sec.text(0);
+    }
+
+</script>
+</body>
+</html>

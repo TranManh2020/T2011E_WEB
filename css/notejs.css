@@ -1,0 +1,22 @@
+/* dấu ngoặc nhọn { -> bắt đầu 1 đối tượng
+    ngoặc vuông [ -> chỉ 1 mảng
+
+   sau run: là 1 hàm (fuction) -> chỉ là là 1 phương thức
+    this(demo_js2/15) là đối tượng ngầm định của đối tượng
+    object: thuộc tính + hành vi
+    DOM : Document oject model
+     cac cach chuyển dạng từ html sang js
+    (demo_dom/12)
+    e(demo_event/48)- e la tham so. co the thay bang ki tu khac = this
+    onkeydown(demo_event/24) va onkeypress(demo_event/26) lay gia tri truoc thoi diem ng dung nhap vao.
+    onkeypress co gioi han nen it ki tu hon onkeydown
+    onkeyup(demo_event/25) lay gia tri sau khi ng dung nhap
+    document.getElementByID(...) => tạo ra 1 đối tượng theo ID trên HTML
+
+    document.getElementByTagname("")
+    document.getElementByClassname("")
+    => cả 2 đều trả về 1 array các đối tượng
+    dùng vòng lặp để xử lý(arr[i] -> 1 đối tượng)
+    cách tạo ra 1 đối tượng jquery (demo_jquery/20)
+    từ khóa thư viện: banner slider,nivo slider
+ */

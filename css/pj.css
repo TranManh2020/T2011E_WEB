@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    background-color: #19c416;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1170px;
+    margin: 0 auto;
+}
+.main{
+    margin-top: 30px;
+}
+.content{
+    float: left;
+    background-color: white;
+    margin-right: 15px;
+    padding: 40px;
+}
+.sidebar{
+    float: left;
+    margin-left: 15px;
+    background-color: yellow;
+}
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid red;
+    padding: 20px 0;
+}
+.toplink ul{
+    float: left;
+}
+.toplink li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.toplink a{
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 69px;
+}
+.nav{
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid red;
+}
+.menu ul{
+    float: left;
+}
+.menu li{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+.menu a{
+    font-size: 15px;
+    color: #222222;
+    font-weight: 600;
+    text-decoration: none;
+}
+.name{
+    background-image: url("../imgs/imgs_project/img_8.png");
+    background-size: cover;
+    height: 800px;
+}
+.name h1{
+    font-size: 100px;
+    color: yellowgreen;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 250px;
+}
+.name p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.des h3{
+    font-size: 25px;
+    color: #222222;
+    font-weight: 600;
+}
+.des p{
+    font-size: 14px;
+    color: #222222;
+    padding-top: 15px;
+}
+.pic img{
+    max-width: 100%;
+    padding: 1px;
+}
+.middle-tag ul{
+    float: left;
+    margin-top: 30px;
+    padding-left: 30%;
+}
+.middle-tag li{
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+}
+
+.middle-tag span{
+    color: darkorange;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.middle-tag a{
+    font-size: 14px;
+    color: #222222;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.middle-logo ul{
+    float: left;
+    padding-left: 45%;
+}
+.middle-logo li{
+    float: left;
+    font-size: 25px;
+    list-style: none;
+    margin-right: 15px;
+}
+.fb{
+    color: blue;
+}
+.ins{
+    color: #30b51b;
+}
+.in{
+    color: blueviolet;
+}
+.sky{
+    color: blue;
+}
+.tw{
+    color: blueviolet;
+}
+.author{
+    margin-top: 200px;
+
+}
+.author avatar{
+    width: 90px;
+}
+.info{
+    width: 700px;
+}
+.author info{
+    float: left;
+    width: ;
+}

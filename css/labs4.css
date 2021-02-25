@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image img {
+    width: 200px;
+    border-radius: 100%;
+}
+.left{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    padding-top: 40px;
+    background-color: green;
+}
+
+.right{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    padding-top: 40px;
+    background-color: pink;
+
+}
+.bottom{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    padding-top: 40px;
+    background-color: yellow;
+}
+.top{
+    float: left;
+    width: calc(100%-300px);
+    margin-left: 40px;
+    padding-top: 40px;
+    background-color: blue;
+}
