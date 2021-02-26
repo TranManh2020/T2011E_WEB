@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>map</title>
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/test_map.css">
+</head>
+<body>
+    <section class="col-md-12">
+        <div class="container">
+            <div id="map"></div>
+        </div>
+    </section>
+<script src="libs/jquery/jquery-3.5.1.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaj0mHlR-keu-9hsR6d-gB0L9BclG04rk&callback=initMap&libraries=&v=weekly"
+        defer
+></script>
+
+<script>
+    let map;
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 20.994632, lng: 105.819950 },
+            zoom: 18,
+        });
+    }
+</script>
+</body>
+</html>

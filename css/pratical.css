@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1170px;
+    margin: 0 auto;
+}
+.main{
+    margin-top: 2px;
+}
+.content{
+    float: left;
+    margin-right: 15px;
+    margin-left: 1px;
+}
+.header{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.header-search{
+    float: right;
+
+}
+.header-search input{
+    float: left;
+}
+.header-search p{
+    float: left;
+    margin-right: 5px;
+}
+.header-search button{
+    margin-left: 5px;
+    height: 24px;
+    width: 50px;
+}
+.header-search span{
+    float: right;
+}
+.nav {
+    background-color: #9da337;
+}
+.show-case{
+    float: right;
+}
+.show-case h3{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    color: #fafafa;
+}
+.show-case img{
+    font-size: 10px;
+}
+.sidebar-left{
+    float: left;
+    background-color: #e1d3b4;
+    height: 649px;
+}
+.sidebar-left li{
+    font-size: 14px;
+    list-style: none;
+    border-bottom: 2px solid #fafafa ;
+    padding: 0 5px;
+    background-color: #d0d495;
+}
+
+.noidung img{
+
+}
+.noidung h3{
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 15px;
+
+}
+.noidung p{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.noidung{
+    float: left;
+    width: 800px;
+    background-color: #fafafa;
+}
+.menu-right{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    background-color: #ebedd7;
+}
+.menu-right h4{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #daddb4;
+    padding-top: 10px;
+}
+.menu-right form{
+    padding-left: 15px;
+}
+form select{
+    margin-bottom: 5px;
+}
+form p{
+    margin-bottom: 0;
+}
+.button button{
+    height: 20px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.bottom{
+    float: right;
+    margin-right: 25px;
+    margin-top: 100px;
+    background-color: #e1d3b4;
+}
+.footer .bot{
+    float: right;
+    margin-top: 15px;
+}
+
