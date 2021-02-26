@@ -75,6 +75,9 @@ body{
     list-style: none;
     border-bottom: 2px solid #fafafa ;
     padding: 0 5px;
+    background-color: #e1d3b4;
+}
+.sidebar-left .show{
     background-color: #d0d495;
 }
 
